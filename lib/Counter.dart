@@ -11,7 +11,7 @@ class _CounterState extends State<Counter> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(appBar:AppBar(
-    backgroundColor: Colors.tealAccent,
+    backgroundColor: Colors.lightBlueAccent,
     title: Text('Counter',style: TextStyle(fontSize: 20,color: Colors.black,fontWeight: FontWeight.bold)),
      centerTitle: true,),
      body: Center(child: Container(
